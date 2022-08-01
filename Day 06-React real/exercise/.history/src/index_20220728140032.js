@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM, { createRoot } from 'react-dom/client';
+import './index.css';
+import UsingAlert from './Components/UsingAlert';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import StudentInfoTable from './Components/StudentInfoComponent';
+import './StudentInfo.css';
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<UsingAlert />);
