@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { createRoot } from 'react-dom/client';
+import AppState from './Components/AppState';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Calculator from './Components/BasicCalculator';
+import LogIn from './Components/LogInForm';
+import ToDo from './Components/ToDo';
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<LogIn />);
